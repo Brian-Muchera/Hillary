@@ -4,8 +4,8 @@ from .models import Blog,Inquiry
 from django.contrib.auth.models import User
 from .forms import InquiryForm
 from django.contrib import messages
-from .email import send_inquiry
-from django.core.mail import send_mail
+#from .email import send_inquiry
+#from django.core.mail import send_mail
 from django.conf import settings
 
 
