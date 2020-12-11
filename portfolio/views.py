@@ -16,7 +16,7 @@ def index(request):
     user=User.objects.get(pk=1)
     form=InquiryForm()
    
-    return render(request,'portfolio/index.html',{'blogs':blogs,'user':user,'form':form})
+    return render(request, 'index.html',{'blogs':blogs,'user':user,'form':form})
 
 #ajax inquiry view functon
 def inquiry(request):
