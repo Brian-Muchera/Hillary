@@ -45,7 +45,7 @@
 
 /* Background image home */
 .home-inner {
-    background-image: url(/media/background.jpeg) ;
+   /* background-image: url(/media/background.jpeg) ;*/
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh; 
